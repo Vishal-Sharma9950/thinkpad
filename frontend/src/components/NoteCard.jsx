@@ -4,6 +4,8 @@ import { Link } from 'react-router'
 import { formatDate } from '../lib/utils'
 import axios from 'axios'
 import toast from 'react-hot-toast'
+import api from "../lib/Axios.js";
+
 
 const NoteCard = ({ note,setNotes }) => {
 

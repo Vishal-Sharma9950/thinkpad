@@ -5,6 +5,8 @@ import RateLimitedUI from '../components/RateLimitedUI';
 import toast from 'react-hot-toast';
 import NoteCard from '../components/NoteCard';
 import NotesNotFound from '../components/NotesNotFound';
+import api from "../lib/Axios.js";
+
 
 const HomePage = () => {
 
